@@ -29,7 +29,7 @@ function handle_city_data(data){
     current_weather.innerHTML = "Current Weather: "+ data.weather[0].description; 
     info_div.appendChild(current_weather);
 
-    fetch("https://api.openweathermap.org/data/2.5/onecall?lat="+data.coord.lat+"&lon="+data.coord.lon+"&exclude=hourly&appid=a1fa6d245b03b290a8f678bb5b15a5bd")
+    fetch("https://api.openweathermap.org/data/2.5/onecall?lat="+data.coord.lat+"&lon="+data.coord.lon+"&units=metric&appid=a1fa6d245b03b290a8f678bb5b15a5bd")
     .then(response => response.json())
     .then(data => handle_daily_data(data))
 }
