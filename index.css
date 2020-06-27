@@ -15,10 +15,14 @@ img{
   height: auto;
 }
 table{
-  background:black;
+  background-color:#343a40;
   color:white;
   margin-bottom: 20%;
   width: 100%;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
 }
 
 
