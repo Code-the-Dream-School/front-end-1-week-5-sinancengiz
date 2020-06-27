@@ -7,9 +7,18 @@
 
 th{
   padding: 10px;
+
 }
 
 img{
   width: 40px;
   height: auto;
 }
+table{
+  background:black;
+  color:white;
+  margin-bottom: 20%;
+  width: 100%;
+}
+
+
