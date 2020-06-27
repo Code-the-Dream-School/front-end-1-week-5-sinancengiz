@@ -7,9 +7,23 @@
 
 th{
   padding: 10px;
+
 }
 
 img{
   width: 40px;
   height: auto;
 }
+table{
+  background-color:#343a40;
+  color:white;
+  margin-bottom: 20%;
+  width: 100%;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+
